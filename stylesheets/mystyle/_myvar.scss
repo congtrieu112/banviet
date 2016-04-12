@@ -1,0 +1,42 @@
+//== Navbar
+//=== Inverted navbar
+// Reset inverted navbar basics
+$navbar-purple-color:                      lighten($gray-light, 15%) !default;
+$navbar-purple-bg:                         #6f5499 !default;
+$navbar-purple-border:                     darken($navbar-purple-bg, 10%) !default;
+
+// Inverted navbar links
+$navbar-purple-link-color:                 lighten($gray-light, 15%) !default;
+$navbar-purple-link-hover-color:           #fff !default;
+$navbar-purple-link-hover-bg:              transparent !default;
+$navbar-purple-link-active-color:          $navbar-purple-link-hover-color !default;
+$navbar-purple-link-active-bg:             darken($navbar-purple-bg, 10%) !default;
+$navbar-purple-link-disabled-color:        #444 !default;
+$navbar-purple-link-disabled-bg:           transparent !default;
+
+// Inverted navbar brand label
+$navbar-purple-brand-color:                $navbar-purple-link-color !default;
+$navbar-purple-brand-hover-color:          #fff !default;
+$navbar-purple-brand-hover-bg:             transparent !default;
+
+// Inverted navbar toggle
+$navbar-purple-toggle-hover-bg:            #333 !default;
+$navbar-purple-toggle-icon-bar-bg:         #fff !default;
+$navbar-purple-toggle-border-color:        #333 !default;
+
+//== Button
+
+$brand-purple:          #6f5499 !default;
+$btn-purple-color:              #fff !default;
+$btn-purple-bg:                 $brand-purple !default;
+$btn-purple-border:             darken($btn-purple-bg, 5%) !default;
+
+//== Mystyle banviet
+$design-width: 909px;
+$logo-bv-width: 85px;
+$logo-bv-height: 93px;
+$header-center-top-w: 455px;
+$header-center-top-h: 22px;
+$header-center-top-two-w: 182px;
+$header-center-top-two-h: 16px;
+$header-hight: 147px;

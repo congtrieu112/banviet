@@ -1,0 +1,4 @@
+// purple and error appear as red
+.btn-purple {
+  @include button-variant($btn-purple-color, $btn-purple-bg, $btn-purple-border);
+}

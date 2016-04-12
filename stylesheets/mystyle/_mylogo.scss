@@ -1,0 +1,10 @@
+
+header{
+	a.logo {
+		display: block;
+		width: $logo-bv-width;
+		height: $logo-bv-height;
+		background: url(../images/logo.png) no-repeat;
+		margin: 20px;
+	}
+}
