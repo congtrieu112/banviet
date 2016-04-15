@@ -6,6 +6,15 @@
 	margin: 0;
 	padding: 0;
 }
+button.info-two {
+	background-color: #44a203;
+	border: none;
+	border-radius: 14px;
+	padding: 6px 10px;
+	font-size: 12.5px;
+	color: #ffffff;
+	margin-top: 15px;
+}
 .pd0{
 	padding: 0;
 }
@@ -34,6 +43,9 @@
 .gray{
 	color: #757575 !important;
 }
+.nopd{
+	@include reset-pd-mg;
+}
 body{
 	div.design-bv{
 		max-width: $design-width;
@@ -43,7 +55,7 @@ body{
 	header.header {
 		background: url(../images/banner.png) no-repeat;
 		width: 100%;
-		height: $header-hight;
+		// height: $header-hight;
 	}
 	h1.header-center-top{
 		@include text-center ;
@@ -189,7 +201,8 @@ body{
 		}
 	}
 	section.slider {
-		margin-top: 50px;
+		// margin-top: 50px;
+		@include reset-pd-mg;
 		div.menu-side{
 			li{
 				&.active{
@@ -302,15 +315,7 @@ body{
 					text-transform: initial;
 					text-align: left;
 				}
-				button.info-two {
-					background-color: #44a203;
-					border: none;
-					border-radius: 14px;
-					padding: 6px 10px;
-					font-size: 12.5px;
-					color: #ffffff;
-					margin-top: 15px;
-				}
+
 				.col-md-7{
 					margin-left: 30px;
 				}

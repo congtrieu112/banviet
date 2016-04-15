@@ -2239,6 +2239,8 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 .btn-purple.disabled:hover, .btn-purple.disabled:focus, .btn-purple.disabled.focus, .btn-purple[disabled]:hover, .btn-purple[disabled]:focus, .btn-purple[disabled].focus, fieldset[disabled] .btn-purple:hover, fieldset[disabled] .btn-purple:focus, fieldset[disabled] .btn-purple.focus { background-color: #6f5499; border-color: #634b89; }
 .btn-purple .badge { color: #6f5499; background-color: #fff; }
 
+button.info-two { background-color: #44a203; border: none; border-radius: 14px; padding: 6px 10px; font-size: 12.5px; color: #ffffff; margin-top: 15px; }
+
 .pd0 { padding: 0; }
 
 .color-bv { background-color: #429d03; border-color: #429d03; background: #429d03; background: -webkit-linear-gradient(#429d03, #275e01); background: -o-linear-gradient(#429d03, #275e01); background: -moz-linear-gradient(#429d03, #275e01); background: linear-gradient(#429d03, #275e01); }
@@ -2253,8 +2255,10 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 
 .gray { color: #757575 !important; }
 
+.nopd { margin: 0; padding: 0; }
+
 body div.design-bv { max-width: 909px; padding: 0; background-color: #f2f2f1; }
-body header.header { background: url(../images/banner.png) no-repeat; width: 100%; height: 147px; }
+body header.header { background: url(../images/banner.png) no-repeat; width: 100%; }
 body h1.header-center-top { text-align: center; margin: 0; padding: 0; margin-top: 30px; }
 body h1.header-center-top img { width: 455px; height: 22px; margin: auto; margin-bottom: 15px; display: block; }
 body h2.header-center-top-two { text-align: center; margin: 0; padding: 0; }
@@ -2281,7 +2285,7 @@ body div.menutop { margin-top: 8px; }
 body div.menutop a { padding: 15px 30px; font-size: 17px; font-weight: bold; color: white !important; }
 body div.menutop a:hover { background-color: #275e01 !important; }
 body div.menutop li.active a { background-color: #275e01 !important; }
-body section.slider { margin-top: 50px; }
+body section.slider { margin: 0; padding: 0; }
 body section.slider div.menu-side li.active a { color: #275e01 !important; }
 body section.slider div.menu-side a { padding: 3px 19px; color: #429e03; background-color: white !important; }
 body section.top-container { background-color: #f1f0f0; float: left; }
@@ -2299,7 +2303,6 @@ body section.main .main-info h2.title-main-info { font-family: 'Roboto', sans-se
 body section.main .main-info h3.info-content, body section.main .main-info .content-two h2.title-top-contend { font-family: arial; font-size: 12.5px; font-weight: bold; text-transform: capitalize; color: #07855d; margin-top: 25px; margin-bottom: 30px; }
 body section.main .main-info .content-two h2.title-top-contend { margin-top: 0; margin-bottom: 20px; font-size: 13.89px; }
 body section.main .main-info .content-two p.content-two-info { font-size: 11px; font-family: arial; color: #757575; text-transform: initial; text-align: left; }
-body section.main .main-info .content-two button.info-two { background-color: #44a203; border: none; border-radius: 14px; padding: 6px 10px; font-size: 12.5px; color: #ffffff; margin-top: 15px; }
 body section.main .main-info .content-two .col-md-7 { margin-left: 30px; }
 body section.main hr.padth { width: 100%; height: 1px; background: #ddd; margin: 13px 0; float: left; }
 body section.main .col-md-4 { margin: 0; padding: 0; }
